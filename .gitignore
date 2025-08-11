@@ -1,0 +1,27 @@
+# Backup files (contain sensitive data)
+migration-backup-*/
+*.zip
+
+# User-specific config
+user-config.txt
+.Brewfile
+
+# SSH keys and sensitive files
+.ssh/
+ssh-folder/
+
+# Projects (too large for git)
+projects/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Application support files
+cursor-settings/
+Library/
+
+# Temporary files
+/tmp/
+*.tmp
